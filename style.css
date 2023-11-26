@@ -68,6 +68,12 @@ form .form-row .textarea{
   font-size: 14px;
   color: #C1741C;
 }
+.container img{
+  position: relative;
+  left: 15%;
+  width: 500px;
+  height: 500px;
+}
 .textarea textarea{
   resize: none;
   padding-top: 10px;
