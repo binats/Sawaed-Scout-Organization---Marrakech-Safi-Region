@@ -150,9 +150,9 @@ form .form-row .textarea{
 	color: #fff;
 	display: block;
 }
-@media (max-width: 700px) {
+@media (min-width: 780px) {
   .container .text{
-    font-size: 30px;
+    font-size: 50px;
   }
   .container form{
     padding: 10px 0 0 0;
@@ -175,11 +175,27 @@ form .form-row .textarea{
   .btn{
     position: relative;
     left: 50%;
-	margin: 10px 0;
+	margin: 50px 0;
+  font-size: 30px;
 	background-color: #C1741C;
     border: 1px solid#000;
     border-radius: 4px;
     text-align: center;
     padding: 5px ;
+}
+.container{
+  height: 700px;
+  width: 800px;
+  background: #fff;
+  width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 26px;
+  transition: all 0.3s ease;
 }
 }
